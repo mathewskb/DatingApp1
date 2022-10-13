@@ -26,6 +26,9 @@ namespace API.Controllers
         public async Task<ActionResult<AppUser>> GetUserById(int id)
         {
             // you can assign variable and then return 
+
+            // mathews
+            
             return await _context.Users.FindAsync(id);
         }
     }
